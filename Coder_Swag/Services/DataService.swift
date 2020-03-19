@@ -22,17 +22,20 @@ class DataService {
     
     private let hates = [
         Product(productImage: "hat01.png", productTitle: "Call of Duty", productPrice: "$35"),
-        Product(productImage: "hat01.png", productTitle: "Call of Duty", productPrice: "$35"),
-        Product(productImage: "hat01.png", productTitle: "Call of Duty", productPrice: "$35"),
-        Product(productImage: "hat01.png", productTitle: "Call of Duty", productPrice: "$35")
+        Product(productImage: "hat02.png", productTitle: "Call of Duty", productPrice: "$35"),
+        Product(productImage: "hat03.png", productTitle: "Call of Duty", productPrice: "$35"),
+        Product(productImage: "hat04.png", productTitle: "Call of Duty", productPrice: "$35"),
+        Product(productImage: "hat04.png", productTitle: "Call of Duty", productPrice: "$35"),
+        Product(productImage: "hat04.png", productTitle: "Call of Duty", productPrice: "$35"),
+        Product(productImage: "hat04.png", productTitle: "Call of Duty", productPrice: "$35")
         
     ]
     
     private let hoodies = [
         Product(productImage: "hoodie02.png", productTitle: "Call of Duty", productPrice: "$35"),
-        Product(productImage: "hoodie02.png", productTitle: "Call of Duty", productPrice: "$35"),
-        Product(productImage: "hoodie02.png", productTitle: "Call of Duty", productPrice: "$35"),
-        Product(productImage: "hoodie02.png", productTitle: "Call of Duty", productPrice: "$35")
+        Product(productImage: "hoodie03.png", productTitle: "Call of Duty", productPrice: "$35"),
+        Product(productImage: "hoodie04.png", productTitle: "Call of Duty", productPrice: "$35"),
+        Product(productImage: "hoodie04.png", productTitle: "Call of Duty", productPrice: "$35")
         
     ]
     private let shirts = [

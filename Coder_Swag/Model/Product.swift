@@ -9,13 +9,13 @@
 import Foundation
 
 struct Product {
-    private(set) public var productImage: String
-    private(set) public var productTitle: String
-    private(set) public var productPrice: String
+    private(set) public var imageName: String
+    private(set) public var title: String
+    private(set) public var price: String
     
     init(productImage: String, productTitle: String, productPrice: String) {
-        self.productImage = productImage
-        self.productTitle = productTitle
-        self.productPrice = productPrice
+        self.imageName = productImage
+        self.title = productTitle
+        self.price = productPrice
     }
 }

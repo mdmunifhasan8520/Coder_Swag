@@ -91,7 +91,6 @@
 		A3DA54552421DA8C0012B5A0 = {
 			isa = PBXGroup;
 			children = (
-				A3DA549D242242CF0012B5A0 /* ProductCell.swift */,
 				A3DA54602421DA8C0012B5A0 /* Coder_Swag */,
 				A3DA54772421DA8E0012B5A0 /* Coder_SwagTests */,
 				A3DA54822421DA8E0012B5A0 /* Coder_SwagUITests */,
@@ -114,8 +113,6 @@
 			children = (
 				A3DA549824221EBA0012B5A0 /* Services */,
 				A3DA54932421E6A00012B5A0 /* Model */,
-				A3DA54612421DA8C0012B5A0 /* AppDelegate.swift */,
-				A3DA54632421DA8C0012B5A0 /* SceneDelegate.swift */,
 				A3DA54922421E6940012B5A0 /* Controller */,
 				A3DA54912421E6830012B5A0 /* View */,
 				A3DA546A2421DA8E0012B5A0 /* Assets.xcassets */,
@@ -148,6 +145,7 @@
 			children = (
 				A3DA54672421DA8C0012B5A0 /* Main.storyboard */,
 				A3DA54942421E6C70012B5A0 /* CategoryCell.swift */,
+				A3DA549D242242CF0012B5A0 /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -157,6 +155,8 @@
 			children = (
 				A3DA54652421DA8C0012B5A0 /* CategoryVC.swift */,
 				A3DA549F242243B40012B5A0 /* ProductVC.swift */,
+				A3DA54612421DA8C0012B5A0 /* AppDelegate.swift */,
+				A3DA54632421DA8C0012B5A0 /* SceneDelegate.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";

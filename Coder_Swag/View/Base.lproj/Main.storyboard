@@ -127,7 +127,7 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="vij-HY-pwO">
                                 <rect key="frame" x="0.0" y="58" width="375" height="565"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="MjG-9U-mMS">
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="MjG-9U-mMS">
                                     <size key="itemSize" width="178" height="241"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -195,6 +195,9 @@
                         <viewLayoutGuide key="safeArea" id="1Ba-yC-4uG"/>
                     </view>
                     <navigationItem key="navigationItem" id="arJ-Hz-EHB"/>
+                    <connections>
+                        <outlet property="produtsCollection" destination="vij-HY-pwO" id="4ol-fk-p3R"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tEU-Lz-R9f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
